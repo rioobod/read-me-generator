@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+
+//const generateMarkdown = require('./utils/generateMarkdown');
+
 const { writeFile } = require('./utils/generateReadMe');
 
 // TODO: Create an array of questions for user input
@@ -19,34 +21,18 @@ const { writeFile } = require('./utils/generateReadMe');
 const promptUser = () => {
     return inquirer.prompt([
       {
-        type: 'input',
-        name: 'name',
-        message: 'What is your name? (Required)',
-        validate: nameInput => {
-            if (nameInput) {
-              return true;
-            } else {
-              console.log('Please enter your name!');
-              return false;
-            }
-        }
-      },
-
-      {
         type: 'confirm',
-        name: 'confirmAbout',
-        message: 'Would you like to enter some information about yourself for an "About" section?',
-        default: true
-      },
-    {
-    type: 'input',
-    name: 'about',
-    message: 'Provide some information about yourself:',
-    when: ({ confirmAbout }) => confirmAbout
-  }
+        name: 'confirmAddReadMe',
+        message: 'would you like to add a ReadMe file"',
+        default: false
+    }
 ]);
 };
+
 promptUser()
 .then(readMePage => {
 return writeFile(readMePage);
 })
+.catch((err) => {
+   console.log(err); 
+});
