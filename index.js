@@ -53,6 +53,33 @@ const promptUser = () => {
         }
       }
   },
+  {
+    type: "input",
+    name: "installation",
+    message: "Please provide installation instructions?",
+    validate: installationInput => {
+      if (installationInput) {
+        return true;
+      } else {
+        console.log('You need to provide installation instructions for your project');
+        return false;
+      }
+    }
+},
+   {
+    type: "input",
+    name: "usage",
+    message: "How will this application be used?",
+    validate: usageInput => {
+      if (usageInput) {
+        return true;
+      } else {
+        console.log('Please state how your project can be used');
+        return false;
+      }
+    }
+}, 
+
 
 ]);
 };
