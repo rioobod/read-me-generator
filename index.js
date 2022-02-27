@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 
-//const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 const { writeFile } = require('./utils/generateReadMe');
 
@@ -25,14 +25,46 @@ const promptUser = () => {
         name: 'confirmAddReadMe',
         message: 'would you like to add a ReadMe file"',
         default: false
-    }
+    },
+
+    {
+      type: "input",
+      name: "title",
+      message: "What is the title of your project?",
+      validate: titleInput => {
+        if (titleInput) {
+          return true;
+        } else {
+          console.log('You need to enter a title for your project');
+          return false;
+        }
+      }
+  },
+     {
+      type: "input",
+      name: "description",
+      message: "Please provide a description for your project?",
+      validate: descriptionInput => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log('You need to provide a description for your project');
+          return false;
+        }
+      }
+  },
+
 ]);
 };
 
 promptUser()
-.then(readMePage => {
-return writeFile(readMePage);
-})
-.catch((err) => {
-   console.log(err); 
-});
+    .then(data => {
+        console.log(data)
+        return generateMarkdown(data)
+    })
+  .then((readMePage) => {
+    return writeFile(readMePage);
+  })
+  .catch((err) => {
+    console.log(err);
+  });

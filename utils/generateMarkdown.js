@@ -26,15 +26,31 @@ const generateMarkDown = titleText => {
   `
   // console.log(titleText);
 }
-const generateProj = projArrs => {
-  return `
-  
-  `
-}
 
+//const generateProj = projArrs => {
+  //return `
+  
+  //`
+//}
 module.exports = templateData => {
-  const {title, ...header} = templateData;
+  const {title, description} = templateData;
   return `
-     ## ${generateMarkDown(header.title)}
+  # Project Title: ${generateMarkDown(title)}
+  ### Project Description: ${generateMarkDown(description)}
+  ## Table of Contents:
+
+  # [Installation:]
+  # [Usage:]
+  # [License]
+  # [Contributing:]
+  # [Tests:]
+  # [Questions]
+
+  # Installation:
+  # Usage:
+  # License
+  # Contributing:
+  # Tests: 
+  # Questions
   `
  }
