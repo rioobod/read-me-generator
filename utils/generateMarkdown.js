@@ -17,11 +17,24 @@
 //`;
 //}
 
-const generateMarkdown = (name)=> {
+const generateMarkDown = titleText => {
+  if (!titleText) {
+    return '';
+  }
   return `
-  # ${name}
+   ${titleText}
+  `
+  // console.log(titleText);
+}
+const generateProj = projArrs => {
+  return `
+  
   `
 }
 
-
-module.exports = generateMarkdown;
+module.exports = templateData => {
+  const {title, ...header} = templateData;
+  return `
+     ## ${generateMarkDown(header.title)}
+  `
+ }
