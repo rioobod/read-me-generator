@@ -40,6 +40,7 @@ const promptUser = () => {
         }
       }
   },
+
      {
       type: "input",
       name: "description",
@@ -53,6 +54,7 @@ const promptUser = () => {
         }
       }
   },
+
   {
     type: "input",
     name: "installation",
@@ -66,6 +68,7 @@ const promptUser = () => {
       }
     }
 },
+
    {
     type: "input",
     name: "usage",
@@ -78,7 +81,8 @@ const promptUser = () => {
         return false;
       }
     }
-}, 
+},
+
 {
   type: 'list',
   name: 'license',
@@ -95,6 +99,7 @@ const promptUser = () => {
   // 'GNU GPL v3: [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)', 
   // 'GNU GPL v2: [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)']
 },
+
 {
   type: "input",
   name: "credits",
@@ -107,6 +112,34 @@ const promptUser = () => {
       return false;
     }
   }
+},
+
+{
+type: "input",
+name: "gitHub",
+message: "Enter your GitHub profile link?",
+validate: gitHubInput => {
+  if (gitHubInput) {
+    return true;
+  } else {
+    console.log('Please enter your GitHub profile link');
+    return false;
+  }
+}
+},
+
+{
+type: "input",
+name: "email",
+message: "Enter your email address?",
+validate: emailInput => {
+  if (emailInput) {
+    return true;
+  } else {
+    console.log('Please enter your email');
+    return false;
+  }
+}
 }
 
 ]);

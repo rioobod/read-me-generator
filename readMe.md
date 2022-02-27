@@ -2,7 +2,7 @@
   # Project Title: 
    README generator
   
-  ### Project Description: 
+  ## Project Description: 
    An application to generate a professional README file from the command line.
   
   ## Table of Contents:
@@ -15,19 +15,23 @@
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## Installation: 
-   Clone the repo to your computer. Navigate to the root project folder in the terminal. Run npm intall to get inquirer dependencies. Then run node index.js
+  ## Installation 
+   Clone the repo to your computer. Navigate to the root project folder in the terminal. Run npm intall to get inquirer dependencies. Run node index.js, which will present you with a series of question prompts. 
   
-  ## Usage: 
+  ## Usage 
    Use the application to generate a README file from your terminal.
   
   ## License 
    MIT
   
-  ## Contributing:
-  ## Credits: 
-   https://courses.bootcampspot.com/ - for module 9 portfolio generator;
+  ## Contributing
+  ## Credits 
+   https://courses.bootcampspot.com/ - module 9 portfolio-generator
   
-  ## Tests: 
+  ## Tests 
   ## Questions
+  
+   https://github.com/rioobod
+    akanbilola@gmail.com
+  
   
