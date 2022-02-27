@@ -16,14 +16,18 @@
   * [Questions](#questions)
 
   ## Installation: 
-   Clone the repo. Then run npm intall to get inquirer dependencies. Navigate to root project folder in the terminal or git bash. Then run node index.js
+   Clone the repo to your computer. Navigate to the root project folder in the terminal. Run npm intall to get inquirer dependencies. Then run node index.js
   
   ## Usage: 
    Use the application to generate a README file from your terminal.
   
-  ## License
+  ## License 
+   MIT
+  
   ## Contributing:
-  ## Credits:
+  ## Credits: 
+   https://courses.bootcampspot.com/ - for module 9 portfolio generator;
+  
   ## Tests: 
   ## Questions
   

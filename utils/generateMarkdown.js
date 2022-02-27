@@ -33,7 +33,7 @@ const generateMarkDown = titleText => {
   //`
 //}
 module.exports = templateData => {
-  const {title, description, installation, usage} = templateData;
+  const {title, description, installation, usage, license, credits} = templateData;
   return `
   # Project Title: ${generateMarkDown(title)}
   ### Project Description: ${generateMarkDown(description)}
@@ -49,9 +49,9 @@ module.exports = templateData => {
 
   ## Installation: ${generateMarkDown(installation)}
   ## Usage: ${generateMarkDown(usage)}
-  ## License
+  ## License ${generateMarkDown(license)}
   ## Contributing:
-  ## Credits:
+  ## Credits: ${generateMarkDown(credits)}
   ## Tests: 
   ## Questions
   `
