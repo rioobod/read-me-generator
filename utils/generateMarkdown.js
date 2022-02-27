@@ -39,14 +39,14 @@ module.exports = templateData => {
   ### Project Description: ${generateMarkDown(description)}
   ## Table of Contents:
 
-  # [Installation:]
-  # [Usage:]
-  # [License]
-  # [Contributing:]
-  # [Tests:]
-  # [Questions]
+  *[Installation:](#Installation)
+  *[Usage:]
+  *[License]
+  *[Contributing:]
+  *[Tests:]
+  *[Questions]
 
-  # Installation:
+  ## Installation:
   # Usage:
   # License
   # Contributing:
