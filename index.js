@@ -23,7 +23,7 @@ const promptUser = () => {
       {
         type: 'confirm',
         name: 'confirmAddReadMe',
-        message: 'would you like to add a ReadMe file"',
+        message: 'Would you like to add a ReadMe file"',
         default: false
     },
 
