@@ -34,6 +34,7 @@
   Contact Me 
    akanbilola@gmail.com
   
+  ## Screenshot of README questions and answers
   ```md
-![alt text](assets/images/screenshot.png)
+![alt text](asset/image/Capture.PNG)
 ```
