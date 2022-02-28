@@ -89,8 +89,8 @@ const promptUser = () => {
   message: 'What license would you assign with your project? Choose one',
   choices: [
   'MIT', 
-  'Apache 2.0', 
-  'GNU GPL v3', 
+  'Apache 2.0',
+  'GNU GPL v3' ,
   'GNU GPL v2']
 
   //  [
