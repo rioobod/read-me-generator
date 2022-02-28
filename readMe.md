@@ -24,14 +24,14 @@
   ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Contributing
   ## Credits 
-   https://courses.bootcampspot.com/ module 9; lukas-h/license-badges.md 
+   https://courses.bootcampspot.com/ module 9; lukas-h/license-badges.md
   
   ## Tests 
   ## Questions
-  [GitHub Profile](
+  GitHub Profile 
    https://github.com/rioobod
-  )
-  [Contact Me:](
+  
+  Contact Me 
    akanbilola@gmail.com
-  )
+  
   

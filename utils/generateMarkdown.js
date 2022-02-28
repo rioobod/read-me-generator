@@ -82,7 +82,7 @@ module.exports = templateData => {
   ## Credits ${generateMarkDown(credits)}
   ## Tests 
   ## Questions
-  [GitHub Profile](${generateMarkDown(gitHub)})
-  [Contact Me:](${generateMarkDown(email)})
+  GitHub Profile ${generateMarkDown(gitHub)}
+  Contact Me ${generateMarkDown(email)}
   `
  }
