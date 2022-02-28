@@ -38,6 +38,6 @@
   
 ![alt text](asset/image/Capture.PNG)
 
-## Demonstration
-![Video Demo](https://drive.google.com/file/d/1XKiFxOaLTzCjgRTk1u99fq1UQBI3RaX7/view)
+## Video Demo Link
+![Video Demo](https://drive.google.com/file/d/1XKiFxOaLTzCjgRTk1u99fq1UQBI3RaX7/view?usp=sharing)
 
