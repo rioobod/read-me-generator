@@ -35,6 +35,6 @@
    akanbilola@gmail.com
   
   ## Screenshot of README questions and answers
-  ```md
+  
 ![alt text](asset/image/Capture.PNG)
-```
+
