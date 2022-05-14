@@ -34,7 +34,7 @@
   
   ## Screenshot of README questions and answers
   
-![alt text](asset/image/Capture.PNG)
+![alt text](asset/image/CaptureRD.PNG)
 
 
 
