@@ -19,12 +19,12 @@
    Clone the repo to your computer. Navigate to the root project folder in the terminal. Run npm install to get inquirer dependencies. Run node index.js, this will present you with a series of question prompts.
   
   ## Usage 
-   Use the application to generate a README file from your terminal using node index.js
+   Use the application to generate a README file from your terminal using the command node index.js
   
   ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Contributing
   ## Credits 
-   Bootcamp Module 9
+   https://courses.bootcampspot.com/ - Module 9
   
   ## Tests 
   ## Questions
